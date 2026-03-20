@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aeropuertos</string>
+    <string name="channel_description">Canal de la aplicación aeropuertos\n</string>
+    <string name="tvCode">Código</string>
+    <string name="tvCity">Ciudad</string>
+    <string name="txtCode">Código:</string>
+    <string name="edtCode">Código del aeropuerto</string>
+    <string name="txtCity">Ciudad:</string>
+    <string name="edDate">Poner la fecha</string>
+    <string name="tvTitleDate">Fecha: </string>
+    <string name="tvDescription">Descripción del viaje:</string>
+    <string name="action_settings">Configuración\n</string>
+    <string name="action_order_code">Orden por código</string>
+    <string name="action_order_city">Orden por ciudad</string>
+    <string name="title_airport_list_screen">Listado de aeropuertos</string>
+    <string name="name_action_orderby">Ordenar por</string>
+    <string name="icon_orderby_content_description">Campo ordenar por un criterio\n</string>
+    <string name="name_action_settings">Configuración</string>
+    <string name="icon_settings_content_description">Campo descripción de la configuración</string>
+    <string name="progress_message">Cargando...</string>
+    <string name="message_offline">No hay Internet</string>
+    <string name="select_date">Seleccione fecha</string>
+</resources>

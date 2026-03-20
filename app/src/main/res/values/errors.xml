@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_format_password">Formato contraseña incorrecto</string>
+    <string name="error_format_email">Formato email incorrecto</string>
+    <string name="error_password_match">Las contraseñan no coinciden</string>
+</resources>
