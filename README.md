@@ -2,61 +2,80 @@
 
 Aplicación Android desarrollada en Kotlin que permite gestionar información relacionada con un entorno de aeropuerto mediante operaciones CRUD completas. Implementa arquitectura MVVM y persistencia local con Room.
 
+---
+
+## 📸 Capturas de pantalla
+
+### Listado de aeropuertos
+![Listado](img/list.jpg)
+
+### Creación de aeropuerto
+![Creación](img/create.jpg)
+
+### Confirmación de eliminación
+![Eliminación](img/delete.jpg)
+
+---
+
 ## 🚀 Funcionalidades
 
-* Visualización de listado de registros
-* Ordenación dinámica de los datos
-* Alta de nuevos registros con validaciones:
+- Visualización de listado de registros
+- Ordenación dinámica de los datos
+- Alta de nuevos registros con validaciones:
+  - Campos obligatorios
+  - Identificador único
+  - Restricciones de formato
+- Edición de registros existentes (con restricciones)
+- Eliminación con confirmación
+- Gestión de estado vacío (sin datos)
+- Diálogos de error y validación
+- Notificaciones tras inserción de datos
 
-  * Campos obligatorios
-  * Identificador único
-  * Restricciones de formato
-* Edición de registros existentes (con restricciones)
-* Eliminación con confirmación
-* Gestión de estado vacío (sin datos)
-* Diálogos de error y validación
-* Notificaciones tras inserción de datos
+---
 
 ## 🧱 Arquitectura
 
-* MVVM (Model - View - ViewModel)
-* Repository Pattern
-* Separación clara de capas
+- MVVM (Model - View - ViewModel)
+- Repository Pattern
+- Separación clara de capas
+
+---
 
 ## 🗄️ Persistencia
 
-* Base de datos local con Room
-* DAO para acceso a datos
-* Gestión reactiva del estado
+- Base de datos local con Room
+- DAO para acceso a datos
+- Gestión reactiva del estado
+
+---
 
 ## 🖥️ Interfaz
 
-* Jetpack Compose
-* Pantallas principales:
+- Jetpack Compose
 
-  * Listado
-  * Alta / edición
+Pantallas principales:
+- Listado
+- Alta / edición
+
+---
 
 ## 🔔 Notificaciones
 
-* Canal de notificaciones
-* Aviso al usuario tras crear un nuevo registro
+- Canal de notificaciones
+- Aviso al usuario tras crear un nuevo registro
+
+---
 
 ## ⚙️ Tecnologías utilizadas
 
-* Kotlin
-* Jetpack Compose
-* Room
-* Android Architecture Components
+- Kotlin
+- Jetpack Compose
+- Room
+- Android Architecture Components
+
+---
 
 ## 📦 Instalación
 
 ```bash
 git clone https://github.com/pablogfdev/app-android.git
-```
-
-Abrir en Android Studio y ejecutar.
-
-## 📄 Licencia
-
-MIT License
